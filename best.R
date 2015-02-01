@@ -21,6 +21,6 @@ best <- function(state, outcome){
   }
 
   ## Return hospital name in that state with lowest 30-day death rate
-  data <- data[order(data[,type], na.last=TRUE), 2]
+  data <- data[order(data[,type], data[,2], na.last=TRUE), 2]
   data[1]
 }
