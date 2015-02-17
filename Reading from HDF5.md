@@ -17,15 +17,15 @@
 ### RHDF5 package
 RHDF5는 bioconductor에 의해 설치가 되어있다.
 
-```{r}
+```r
 source("http://bioconductor.org/biocLite.R")
 biocLite("rhdf5")
 ```
-```{r md-cars-scatter, message=FALSE, fig.width=7, fig.height=5}
+```r
 library(rhdf5)
 created = h5createFile("example.h5")
 created
 ```
-```R
+```r
 [1] TRUE
 ```
