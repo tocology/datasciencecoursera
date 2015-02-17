@@ -21,11 +21,11 @@ RHDF5는 bioconductor에 의해 설치가 되어있다.
 source("http://bioconductor.org/biocLite.R")
 biocLite("rhdf5")
 ```
-```
+```R
 library(rhdf5)
 created = h5createFile("example.h5")
 created
 ```
-```
+```R
 [1] TRUE
 ```
