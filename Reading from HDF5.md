@@ -17,7 +17,7 @@
 ### RHDF5 package
 RHDF5는 bioconductor에 의해 설치가 되어있다.
 
-```
+```R
 source("http://bioconductor.org/biocLite.R")
 biocLite("rhdf5")
 ```
